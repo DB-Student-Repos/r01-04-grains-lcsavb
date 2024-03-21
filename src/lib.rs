@@ -1,7 +1,8 @@
 pub fn square(s: u32) -> u64 {
-    unimplemented!("grains of rice on square {s}");
+    // code snipped
+    2u64.pow(s - 1)
 }
 
 pub fn total() -> u64 {
-    unimplemented!();
+    (2_u128.pow(64) - 1) as u64
 }
